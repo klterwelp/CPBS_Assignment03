@@ -1,0 +1,17 @@
+name: cpbs7602_assignment03
+channels:
+  - conda-forge  
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - scikit-learn
+  - pandas
+  - openpyxl
+  - seaborn
+  - umap-learn
+  - tqdm  # Ensure tqdm is included
+  - ipywidgets  # Add ipywidgets to fix the warning
+  - jupyterlab_widgets  # Widgets for JupyterLab compatibility
