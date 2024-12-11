@@ -15,3 +15,4 @@ dependencies:
   - tqdm  # Ensure tqdm is included
   - ipywidgets  # Add ipywidgets to fix the warning
   - jupyterlab_widgets  # Widgets for JupyterLab compatibility
+  - ipykernel #kernel for environment
